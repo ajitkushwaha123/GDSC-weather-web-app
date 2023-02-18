@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"></link>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/">
+    <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/bottom-nav.css">
+    <link rel="stylesheet" href="css/nav-bar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="css/search-bar.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  
+ 
+
+<header class="header" id="header">
+<nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i class="uil uil-apps"></i>
+    </label>
+    <a href="" class="site_name">We<i class="uil uil-adobe"></i>ther</a>
+
+    <!--------------div class="nav_menu" id="nav-menu" ---------------->
+    <ul class="nav_list grid">
+        <li class="nav_item">
+            <a class="active" href="#home">
+                <i class="uil uil-home"></i>Home
+            </a>
+        </li>
+
+        <li class="nav_item">
+            <a href="#search-content">
+                <i class="uil uil-file-info-alt"></i> Search
+            </a>
+        </li>
+
+        <li class="nav_item">
+            <a href="#sun">
+                <i class="uil uil-create-dashboard"></i> Light mode
+            </a>
+        </li>
+
+        
+
+        <li class="nav_item">
+            <a href="#connect">
+                <i class="uil uil-message"></i>Contact Us
+            </a>
+        </li>
+    </ul>
+    <!------------  <i class="uil uil-times nav_close" id="nav-close"></i>       -------->
+    <!-----------       </div>      ------------->
+
+    <!-------      <div class="nav_btns">
+    <div class="nav_toggle" id="nav-toggle">
+        <i class="uil uil-apps"></i>
+    </div> 
+</div>     ----------------->
+</nav>
+</header>
+
+<div class="main-container">
+    
+    <div class="main">
+
+
+      <div class="col-1">
+        <div class="overlay">
+
+           <div class="day-main">
+            <div class="date" id="date">
+              Monday, 25 May
+             </div>
+           </div>
+            <div class="time" id="time">
+              12:30 <span id="am-pm">PM</span>
+            </div>
+        
+            <div class="locaion-main">
+               <i class="uil location-icon uil-location-pin-alt"></i><span class="loc">India, Fr</span>
+            </div>
+
+            <div class="sun-weather">
+              <i class="uil uil-sun"></i>
+            </div>
+
+            <div class="temp-value">
+              29°C
+            </div>
+
+            <div class="temp-sunny">
+              Sunny
+            </div>
+
+        </div> 
+      </div>`
+  
+      <div class="col-2">
+         <div id="current-weather-items" class="weather-condition">
+          <ul class="list-item">
+            <li class="list">
+             Humidity<span>0%</span>
+            </li>
+            <li class="list">
+             Pressure<span>34%</span>
+            </li>
+            <li class="list">
+              Wind Speed<span>0km/h</span>
+            </li>
+          </ul>
+        </div>
+
+         <div class="day-wise">
+          <div class="main-days">
+            <ul class="list-days">
+               <li class="list-day active">
+                <i class="uil uil-sun cloud-weather" ></i>
+                <p class="day-tue">Tue</p>
+                <p>29°C</p>
+               </li>
+               <li class="list-day">
+                <i class="uil uil-cloud"></i>
+                <p class="day-tue">Wed</p>
+                <p>21°C</p>
+               </li>
+               <li class="list-day">
+                <i class="uil uil-cloud-sun-rain"></i>
+                <p class="day-tue">Thu</p>
+                <p>08°C</p>
+               </li>
+               <li class="list-day">
+                <i class="uil uil-clouds"></i>
+                <p class="day-tue">Fry</p>
+                <p>19°C</p>
+               </li>
+            </ul>
+         </div>
+
+         <div class="btn">
+          <a href="#search" class=""><button class="btn-hover color-1"><i class="uil uil-map-marker"></i>Change location</button></a>
+         </div>
+         </div>
+    </div>
+
+    
+    </div>
+  </div>
+  
+
+
+
+    
+    <div class="nav">
+        <a href="" class="nav-links active"><i class="uil uil-estate"></i></a>
+        <a href="" class="nav-links"><i class="uil uil-search"></i></a>
+        <a href="" class="nav-links"><button class="btn-1"><img src="img/moon.png" class="icon" id="icon" class="moon" width="40px" height="40px" alt=""></button>
+        </a>
+        <a href="" class="nav-links"><i class="uil uil-user"></i></a>
+        <a href="" class="nav-links"><i class="uil uil-message"></i></a>
+        </div>
+   
+
+      <section class="search" id="search">
+
+        <div class="search-content">
+            <div class="wrapper">
+                <header class="header-search"><i class='bx bx-left-arrow-alt'></i>We<i class="uil uil-adobe"></i>ther</header>
+                <section class="input-section">
+                  <p class="info-txt"></p>
+                  <div class="content">
+                    <input type="text" spellcheck="false" placeholder="Enter place name" required>
+                    <div class="devider"></div>
+                    <button>Allow Current Location</button>
+                  </div>
+                </section>
+                <section class="result-part">
+                  <img src="img/sun.png" alt="Weather Icon">
+                  <div class="temp">
+                    <span class="number">_</span>
+                    <span class="deg">°</span>C
+                  </div>
+                  <div class="weather">_ _</div>
+                  <div class="location">
+                    <i class='bx bx-map'></i>
+                    <span>_, _</span>
+                  </div>
+                  <div class="bottom-details">
+                    <div class="column feels">
+                      <i class='bx bxs-thermometer'></i>
+                      <div class="details">
+                        <div class="temp">
+                          <span class="number-2">_</span>
+                          <span class="deg">°</span>C
+                        </div>
+                        <p>Feels like</p>
+                      </div>
+                    </div>
+                    <div class="column humidity">
+                      <i class='bx bxs-droplet-half'></i>
+                      <div class="details">
+                        <span>_</span>
+                        <p>Humidity</p>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
+           </div>
+
+      </section>
+             
+       <script src="app.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js" integrity="sha512-CryKbMe7sjSCDPl18jtJI5DR5jtkUWxPXWaLCst6QjH8wxDexfRJic2WRmRXmstr2Y8SxDDWuBO6CQC6IE4KTA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+       <script>
+       
+         /*--------------time js starts fromm here-----*/
+       
+       const timeE1 = document.getElementById('time');
+       const dateE1 = document.getElementById('date');
+           
+             setInterval(() => {
+               const time = new Date();
+           const month = time.getMonth();
+           const date = time.getDate();
+           const day = time.getDay();
+           const hour = time.getHours();
+           const hoursIn12HrFormat = hour >= 13 ? hour %12: hour
+           const minutes = time.getMinutes();
+           const ampm = hour >= 12 ? 'PM' : 'AM'
+       
+           timeE1.innerHTML = hoursIn12HrFormat + ':' + minutes + ' ' + `<span id="am-pm">${ampm}</span>`
+       
+             
+       
+       
+             /*-------- Date js sarts from here -----------*/
+            
+             const days = ['Sunday' , 'Monday' , 'Tuesday' , 'Wednesday' , 'Thursday' , 'Friday' , 'Saturday']
+             const months = ['Jan' , 'Feb' , 'Mar' , ' Apr' , 'May' , 'Jun' ,'Jul' , 'Aug' , 'Sep' , 'Oct' , 'Nov' , 'Dec'];
+       
+       
+             dateE1.innerHTML = days[day] + ' ,' + date + '' + months[month]
+          
+           }, 1000);
+       
+       
+           /*-------- Weather API ----------*/
+           const API_KEY = '9f92b75d739c722defd91a4331e5405c';
+           getWeatherData()
+       function getWeatherData (){
+           navigator.geolocation.getCurrentPosition((success) => {
+               
+               let {latitude, longitude } = success.coords;
+               /* fetch(`https://api.openweathermap.org/data/onecall?lat=${latitude}&lon=${longitude}&exclude=hourly,minutely&appid=${API_KEY}`) 
+            */
+               fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=metric&appid=${API_KEY}`)
+              .then(res => res.json()) .then(data => {
+                 console.log(data)
+                 showWeatherData(data);
+       
+               })
+       
+           })
+       }
+       
+       const currentWeatherItemsE1 = document.getElementById('current-weather-items');
+       
+       function showWeatherData (data){
+       /*
+         let humidity = data.list.main.humidity
+       
+         currentWeatherItemsE1.innerHTML = `<li class="list">
+                    Humidity<span>${humidity}%</span>
+                   </li>`;
+       
+       */
+         let {humidity , pressure ,sunset , sunrise, wind_speed} = data.city;
+           
+       
+           currentWeatherItemsE1.innerHTML = 
+              `<ul class="list-item">
+                   <li class="list">
+                    Humidity<span>${humidity}%</span>
+                   </li>
+                   <li class="list">
+                    Pressure<span>${pressure}</span>
+                   </li>
+                   <li class="list">
+                     Wind Speed<span>${wind_speed}</span>
+                   </li>
+             
+               </ul>`;
+       }
+          </script>      
+</body>
+</html>
+
+
+
+
+
+
+
